@@ -1,0 +1,14 @@
+Dataset source: Kaggle
+Dataset URL: https://www.kaggle.com/datasets/aliafzal9323/los-angeles-crime-data-2020-2026
+
+CSV file used:
+311_Service_Requests_from_2020_to_Present.csv
+
+Dataset size:
+12.63 GB
+
+Columns:
+44
+
+Note:
+The full dataset is not included in this GitHub repository because of its large file size. To reproduce the project, download the dataset from Kaggle and use the CSV file named 311_Service_Requests_from_2020_to_Present.csv. Kaggle may require users to sign in before downloading.
