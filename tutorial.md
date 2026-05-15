@@ -282,7 +282,7 @@ USE <your_database_name>;
 Run this HiveQL command:
 
 ```sql
-INSERT OVERWRITE DIRECTORY '/user/<your_username>/tmp/top5_map_output_300'
+INSERT OVERWRITE DIRECTORY '/user/<your_username>/tmp/top5_map_output'
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 SELECT
@@ -317,7 +317,7 @@ Exit Beeline:
 Merge the HDFS output into one local CSV file:
 
 ```bash
-hdfs dfs -getmerge /user/<your_username>/tmp/top5_map_output_300 top5_311_map_300.csv
+hdfs dfs -getmerge /user/<your_username>/tmp/top5_map_output top5_311_map.csv
 ```
 
 Check that the file was created:
@@ -337,7 +337,7 @@ Do **not** run this command inside the SSH terminal.
 Download the file to the Desktop:
 
 ```bash
-scp <your_username>@129.146.237.12:~/top5_311_map_300.csv ~/Desktop/
+scp <your_username>@129.146.237.12:~/top5_311_map.csv ~/Desktop/
 ```
 
 The file should now appear on your Desktop.
@@ -346,7 +346,7 @@ The file should now appear on your Desktop.
 
 ## 12. Prepare the CSV File in Excel
 
-Open `top5_311_map_300.csv` in Microsoft Excel.
+Open `top5_311_map.csv` in Microsoft Excel.
 
 If the CSV file does not have headers, add the following headers as Row 1:
 
