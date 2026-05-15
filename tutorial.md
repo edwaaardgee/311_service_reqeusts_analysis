@@ -7,7 +7,7 @@
 ## Source Code
 
 **GitHub repository:**  
-https://github.com/edwaaardgee/311_service_request_analysis
+https://github.com/edwaaardgee/311_service_requests_analysis
 
 The GitHub repository includes the HiveQL commands, tutorial steps, project slides, and supporting project documents.
 
