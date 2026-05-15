@@ -131,7 +131,7 @@ LIMIT 10000;
 
 -- Export Top 5 service request categories for a cleaner Excel 3D Map
 -- This smaller subset helps prevent the map from becoming overcrowded.
-INSERT OVERWRITE DIRECTORY '/user/<your_username>/tmp/top5_map_output_300'
+INSERT OVERWRITE DIRECTORY '/user/<your_username>/tmp/top5_map_output'
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 SELECT
